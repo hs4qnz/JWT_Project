@@ -19,10 +19,6 @@ if (process.env.NODE_ENV === 'development') {
   app.use(cors());
 }
 
-// Enable CORS for all routes
-app.use(cors());
-
-
 /**
  * Connect to the mongodb server using mongoose.
  */
